@@ -1,5 +1,5 @@
 from langgraph.graph import StateGraph, START,END,MessagesState
-from langgraph.prebuilt import toools_conditions,ToolNode
+from langgraph.prebuilt import tools_condition,ToolNode
 from langchain_core.prompts import ChatPromptTemplate
 from src.langgraphagenticai.state.state import State
 from src.langgraphagenticai.nodes.basic_chatbot_node import BasicChatbotNode
